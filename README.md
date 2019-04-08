@@ -1,3 +1,3 @@
 # nodejs_typescript
 
-Slack Bot application developed in Node.js.
+Example of project Conversion of a node.js CRM project to typescript.
