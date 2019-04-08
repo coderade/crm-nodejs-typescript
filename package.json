@@ -1,5 +1,5 @@
 {
-  "name": "crm",
+  "name": "crm-nodejs-typescript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./index.js --exec babel-node -e js"
   },
-  "author": "Emmanuel Henri",
+  "author": "Valdeci Gomes <valdeci@outlook.my>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
