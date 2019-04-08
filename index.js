@@ -3,12 +3,14 @@ import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import routes from './src/routes/crmRoutes';
 
+const MONGO_CONNECTION = process.env.MONGO_CONNECTION;
+
 const app = express();
 const PORT = 3000;
 
 // mongoose connection
 mongoose.Promise = global.Promise;
-mongoose.connect('<insert your own credentials>', {
+mongoose.connect( MONGO_CONNECTION, {
     useMongoClient: true
 });
 
